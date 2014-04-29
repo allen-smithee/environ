@@ -107,6 +107,7 @@ function node_tools {
     end_tmp
 
     npm install -g grunt-cli
+    npm install -g yo
 }
 
 
