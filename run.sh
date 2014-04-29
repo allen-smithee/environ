@@ -107,7 +107,10 @@ function node_tools {
     end_tmp
 
     npm install -g grunt-cli
+    npm install -g grunt-init
     npm install -g yo
+
+    git clone https://github.com/twolfson/grunt-init-python.git ~/.grunt-init/python
 }
 
 
