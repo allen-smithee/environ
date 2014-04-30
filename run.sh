@@ -77,8 +77,10 @@ function python_tools {
 # Standard Python libs
 #
 function python_libs {
-    pip3 install -U decorator
-    pip3 install -U autologging
+    pip3 install -U virtualenv
+    pip3 install -U virtualenvwrapper
+    #pip3 install -U decorator
+    #pip3 install -U autologging
 }
 
 #
@@ -110,7 +112,10 @@ function node_tools {
     npm install -g grunt-init
     npm install -g yo
 
-    git clone https://github.com/twolfson/grunt-init-python.git ~/.grunt-init/python
+    npm install -g grunt-git
+    npm install -g grunt-pylint
+
+    git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile
 }
 
 
