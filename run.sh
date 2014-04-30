@@ -134,7 +134,7 @@ while getopts "spnv:" opt; do
             install_standard="yes"
             ;;
         v)
-            node_version=$opt
+            node_version=$OPTARG
             ;;
         n)
             install_node="yes"
